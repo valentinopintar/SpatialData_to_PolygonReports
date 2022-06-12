@@ -92,7 +92,7 @@ ui <- dashboardPagePlus(
                   solidHeader = TRUE,
                   useShinyalert(),
                   fileInput(inputId = "shp",
-                            label = "Upload polygon (GRID). Upload shapefile :",
+                            label = "Upload polygon (GRID) for output polygon reports. Upload shapefile :",
                             multiple = TRUE,
                             accept = c('.shp','.dbf','.sbn','.sbx','.shx','.prj')),
                   fileInput(inputId = "occurrences",
